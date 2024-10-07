@@ -133,3 +133,36 @@ footer:hover{
 footer a{
   color: var(--text-color);
 }
+
+.bodyDiv{
+  margin: 0 1cm;
+  display: flex;
+  justify-content: space-between;
+}
+
+.curso{
+  flex: 1;
+  margin: 0 0.5cm;
+  text-align: left;
+  color: #000000;
+}
+
+.lista {
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.item::before {
+  content: "•";
+  color: black; 
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.5em;
+}
