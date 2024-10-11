@@ -81,8 +81,8 @@ img.icon{
 
 h1{
   font-size: 32px;
-  margin-top: 24px;
-  margin-bottom: 8px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 .username{
@@ -94,7 +94,7 @@ h1{
 
 ul{
   list-style: none;
-  margin: 48px 0;
+  margin: 28px 0;
 }
 
 ul li {
