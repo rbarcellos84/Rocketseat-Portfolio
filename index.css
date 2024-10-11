@@ -166,3 +166,17 @@ footer a{
   width: 1em;
   margin-right: 0.5em;
 }
+
+.marge {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 1cm;
+}
+
+.linha-horizontal {
+  margin-left: 0.2cm;
+  margin-right: 0.2cm;
+  border: none;
+  border-top: 1px solid #000;
+  color: black;
+}
